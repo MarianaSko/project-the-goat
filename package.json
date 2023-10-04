@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/the-goat-focus-frame/",
+    "build": "vite build --base=/project-the-goat/",
     "preview": "vite preview"
   },
   "devDependencies": {
