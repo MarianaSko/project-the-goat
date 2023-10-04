@@ -1,0 +1,52 @@
+/* Variables */
+:root {
+  --black-color: #121212;
+  --dark-grey-color: #1d1d1d;
+  --linear-gradient: (180deg, #060707 0%, #1d1d1d 100%);
+  --brown-color: #bea69e;
+  --white-color: #fff;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.container {
+  width: 335px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--white-color);
+}
