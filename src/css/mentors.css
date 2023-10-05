@@ -62,13 +62,16 @@
   .mentors-item {
     width: calc((100% - 345px) / 4);
   }
+  .mentors-item:nth-child(3) {
+    width: 194px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .mentors-list {
     column-gap: 113px;
-    .mentors-item {
-      width: calc((100% - 507px) / 4);
-    }
+  }
+  .mentors-item {
+    width: calc((100% - 507px) / 4);
   }
 }
