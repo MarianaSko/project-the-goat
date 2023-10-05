@@ -22,8 +22,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
-.courses-cards {
-}
 .courses-list {
   display: flex;
   gap: 20px;
@@ -40,10 +38,11 @@
 }
 .courses-wrapper {
   display: flex;
-  margin-bottom: 28px;
   gap: 229px;
+  margin: 28px;
 }
 .courses-numer {
+  padding-right: 229px;
 }
 .courses-btn {
   border-radius: 50%;
@@ -67,6 +66,11 @@
 }
 
 .courses-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 164px;
+  margin: 0 28px;
 }
 .courses-subtitl {
   color: var(--white-color);
