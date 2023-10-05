@@ -9,7 +9,8 @@
 .footer {
 }
 .footer-container {
-/* padding: 40px 0 20px 20px; */
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .container {
 }
@@ -72,15 +73,30 @@ row-gap: 14px;
 .footer-form-btn {
 }
 .footer-info {
+  display: flex;
+  justify-content: space-between;
 }
 .footer-info-list {
+  display: flex;
+  flex-direction: column;
 }
 .footer-info-item {
 }
 .footer-info-link {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+
 }
 .footer-info-text {
+  display: flex;
+  width: 116px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
 }
+
 
 /**
   |============================
