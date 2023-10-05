@@ -38,8 +38,6 @@
 }
 .courses-wrapper {
   display: flex;
-  gap: 229px;
-  margin: 28px;
 }
 .courses-numer {
   padding-right: 229px;
@@ -70,7 +68,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 164px;
-  margin: 0 28px;
+  margin: 28px 0 0 0;
 }
 .courses-subtitl {
   color: var(--white-color);
@@ -86,6 +84,5 @@
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  margin-top: 164px;
   color: rgba(255, 255, 255, 0.5);
 }
