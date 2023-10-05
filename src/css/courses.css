@@ -17,8 +17,18 @@
   color: var(--white-color);
   text-align: left;
 }
-.accent {
-  color: var(--brown-color);
+.courses-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: var(--dark-grey-color);
+  position: absolute;
+  top: 32px;
+  right: 32px;
 }
 .courses-text {
   color: var(--white-color);
@@ -31,6 +41,7 @@
 .courses-list {
   display: flex;
   gap: 20px;
+
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -65,13 +76,8 @@
 }
 
 .courses-icon {
-  border-radius: 50%;
-
-  flex-shrink: 0;
-  background-color: var(--dark-grey-color);
-  position: absolute;
-  top: 32px;
-  right: 32px;
+  width: 20px;
+  height: 20px;
   fill: #777777;
 }
 .courses-icon:hover,
