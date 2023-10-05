@@ -50,6 +50,10 @@
 
 }
 
+.icon-header-camera:hover{
+  fill:var(--brown-color)
+}
+
 .menu-toggle-mobile {
   display: flex;
   justify-content: center;
@@ -92,6 +96,12 @@
     line-height: 28px;
     /* 155.556% */
     text-transform: uppercase;
+    transition: color 200ms linear, background-color 200ms linear;
+  }
+
+  .main-btn:hover{
+    color: var(--brown-color);
+    background-color: var(--dark-grey-color);
   }
 }
 
@@ -108,17 +118,22 @@
 
   .nav-list {
     display: flex;
-    color: var(--white-color);
+color: var(--white-color);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    gap: 28px;
   }
 
-  .nav-list {
-    gap: 28px;
+ .nav-item{
+    color: var(--white-color);
+  }
+
+  .nav-item:hover, .nav-item:focus {
+    color: var(--brown-color);
   }
 
   .main-btn {
