@@ -4,12 +4,6 @@
   |============================
 */
 
-@media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-    }
-  }
-  
 
 
 .footer {
@@ -71,6 +65,7 @@ row-gap: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .footer-form-input {
 }
