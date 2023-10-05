@@ -9,8 +9,6 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } */
 
-
-
 .mobile-menu .menu-container {
   display: flex;
   flex-direction: column;
@@ -40,11 +38,9 @@
   margin: 0;
 }
 
-
 .menu-close.js-close-menu {
   background:transparent;
 }
-
 
 .menu-close-svg {
   fill: var(--black-color);
@@ -61,7 +57,6 @@
   margin: 180px auto auto 20px;
 }
 
-
 .mobile-menu-item {
   color: var(--black-color);
   font-family: DM Sans;
@@ -72,12 +67,13 @@
   text-transform: uppercase;
 }
 
-
 .mobile-menu-item.current {
-    font-weight: 700;
-  }
+  font-weight: 700;
+}
 
-
+.mobile-menu-picture {
+  width: 100%;
+}
 
 .mobile-menu-picture img {
   object-fit: cover;
@@ -93,7 +89,6 @@
     gap: 28px;
     margin: 232px auto auto 64px;
   }
-
 
   .mobile-menu-item {
     font-weight: 700;
