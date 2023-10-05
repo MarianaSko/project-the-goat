@@ -16,6 +16,17 @@ body {
   letter-spacing: -0.02em;
   color: var(--white-color);
   background-color: var(--black-color);
+  background-image: url("../images/background/bckg-mobile-top.png");
+  background-position: top;
+  background-size: initial;
+  background-repeat: repeat-x;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  body {
+    background-image: url("../images/background/bckg-mobile-top@2x.png");
+    background-size: auto 947px;
+  }
 }
 
 .visually-hidden {
@@ -57,6 +68,17 @@ body {
 /* TABLET */
 
 @media only screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/background/bckg-tablet-top.png");
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    body {
+      background-image: url("../images/background/bckg-tablet-top@2x.png");
+      background-size: auto 1120px;
+    }
+  }
+
   .container {
     max-width: 768px;
     padding: 0 32px;
@@ -72,8 +94,19 @@ body {
   }
 }
 
-/* DESKTOP */
+/* DESKTOP 1280*/
 @media only screen and (min-width: 1280px) {
+  body {
+    background-image: url("../images/background/bckg-dt-1280-top.png");
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    body {
+      background-image: url("../images/background/bckg-dt-1280-top@2x.png");
+      background-size: auto 909px;
+    }
+  }
+
   .container {
     max-width: 1280px;
     padding: 0 100px;
@@ -84,8 +117,21 @@ body {
   }
 }
 
+/* DESKTOP 1440*/
+
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+  }
+
+  body {
+    background-image: url("../images/background/bckg-dt-1440-top.png");
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    body {
+      background-image: url("../images/background/bckg-dt-1440-top@2x.png");
+      background-size: auto 910px;
+    }
   }
 }
