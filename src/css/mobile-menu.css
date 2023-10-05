@@ -40,9 +40,9 @@
   margin: 0;
 }
 
-/* .menu-close.js-close-menu {
-  background-color: var(--white-color)
-} */
+.menu-close.js-close-menu {
+  background:transparent;
+}
 
 .menu-close-svg {
   fill: var(--black-color);
@@ -58,7 +58,6 @@
   gap: 20px;
   margin: 180px auto auto 20px;
 }
-
 
 .mobile-menu-item {
   color: var(--black-color);
