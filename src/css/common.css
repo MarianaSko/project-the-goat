@@ -11,6 +11,8 @@
 /* MOBILE */
 body {
   font-family: DM Sans, sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
   color: var(--white-color);
   background-color: var(--black-color);
 }
@@ -30,6 +32,7 @@ body {
 
 .container {
   min-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -44,12 +47,6 @@ body {
   line-height: 1.14;
   letter-spacing: -0.04em;
   text-transform: capitalize;
-}
-
-@media only screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
 }
 
 /* TABLET */
