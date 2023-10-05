@@ -81,17 +81,16 @@
     border-radius: 12px;
     background: var(--white, #FFF); 
     color: var(--black, #121212);
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 700;
-line-height: 1.25; /* 125% */
-text-transform: uppercase;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25; /* 125% */
+    text-transform: uppercase;
 }
 .modal-label-agreement {
     margin: 20px;
 }
 .modal-agreement-description {
-    
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
     line-height: 1.33;
@@ -100,4 +99,3 @@ text-transform: uppercase;
 .modal-agreement-description-accent {
 
 }
-
