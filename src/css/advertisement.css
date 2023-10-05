@@ -1,5 +1,7 @@
 .marquee-container {
   overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .marquee-inner {
@@ -18,7 +20,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   animation-name: marqueeLine;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
