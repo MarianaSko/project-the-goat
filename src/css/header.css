@@ -9,8 +9,7 @@
 }
 
 .header {
-  background-color: var(--black, #121212);
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .header-nav {
@@ -29,7 +28,7 @@
 
 .header-logo-icon,
 .icon-header-burger {
-  fill: white;
+  fill: var(--white-color);
 }
 
 .button-camera {
@@ -38,7 +37,7 @@
   align-items: center;
   padding: 8px;
   margin-right: 14px;
-  background: #1D1D1D;
+  background: var(--dark-grey-color);
   border-radius: 50%;
   border: none;
   height: 32px;
@@ -47,7 +46,7 @@
 
 .icon-header-camera {
   fill: #BEA69E66;
-  background: #1D1D1D;
+  background: var(--dark-grey-color);
 
 }
 
@@ -82,11 +81,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background: #FFF;
+    background: var(--white-color);
     border: none;
 
-    color: #121212;
-    /* font-family: DM Sans; */
+    color: var(--black-color);
+    font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -96,20 +95,21 @@
   }
 }
 
-/* desctop */
+/* desktop */
 @media screen and (min-width: 1280px) {
   .header-wrap-button {
     display: none;
   }
-  .header-nav{
+
+  .header-nav {
     margin-right: 20px;
     padding: 21px 50px;
   }
 
   .nav-list {
     display: flex;
-    color: #FFF;
-    /* font-family: DM Sans; */
+    color: var(--white-color);
+    font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -117,11 +117,11 @@
     text-transform: uppercase;
   }
 
-  .nav-list{
-    gap: 28px ;
+  .nav-list {
+    gap: 28px;
   }
 
-  .main-btn{
+  .main-btn {
     width: 268px;
     height: 60px;
   }
