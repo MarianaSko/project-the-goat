@@ -43,20 +43,20 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
+.courses-numer {
+  top: 28px;
+  right: 28px;
+}
 .courses-wrapper {
   display: flex;
 }
 
-.courses-btn {
-}
 .button {
   border-radius: 50%;
   width: 32px;
   height: 32px;
   flex-shrink: 0;
   background-color: var(--dark-grey-color);
-}
-.courses-link {
 }
 .courses-link:hover,
 .courses-link:focus {
@@ -66,8 +66,7 @@
 
 .courses-icon {
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+
   flex-shrink: 0;
   background-color: var(--dark-grey-color);
   position: absolute;
