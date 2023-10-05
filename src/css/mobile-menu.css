@@ -69,6 +69,10 @@
   text-transform: uppercase;
 }
 
+.mobile-menu-item.current {
+  font-weight: 700;
+}
+
 .mobile-menu-picture {
   width: 100%;
 }
@@ -88,7 +92,4 @@
     margin: 232px auto auto 64px;
   }
 
-  .mobile-menu-item {
-    font-weight: 700;
   }
-}
