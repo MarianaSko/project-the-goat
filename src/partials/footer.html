@@ -1,15 +1,19 @@
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer-container container">
-    <svg class="footer-logo" width="123" height="16">
-      <use href="../images/icons.svg#icon-logo"></use>
-    </svg>
-    <div class="footer-address">
-      <a href="tel:+380665438912"><span>UK:</span>+38 066 543 8912</a>
-      <p>Ukraine, Kyiv</p>
+    <div class="container-tablet">
+      <div class="container-logo-address">
+      <svg class="footer-logo" width="123" height="16">
+        <use href="../images/icons.svg#icon-logo"></use>
+      </svg>
+      <div class="footer-address">
+        <a class="footer-address-link" href="tel:+380665438912"
+          ><span>UK:</span>+38 066 543 8912</a
+        >
+        <p class="footer-address-text">Ukraine, Kyiv</p>
+      </div>
     </div>
-    <div class="footer-center">
-      <div class="footer-social">
+      <div class="footer-center">
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a
@@ -39,9 +43,7 @@
             >
           </li>
         </ul>
-      </div>
 
-      <div class="footer-menu">
         <ul class="footer-menu-list">
           <!-- додати якорі до секцій (id=""x5) -->
           <li class="footer-menu-item">
@@ -61,10 +63,21 @@
           </li>
         </ul>
       </div>
+
+      <form class="footer-form">
+        <label>
+          <input
+            class="footer-form-input"
+            type="email"
+            placeholder="Enter your email"
+            id="subscribe-user-email"
+            required
+          />
+        </label>
+
+        <button class="footer-form-btn" type="submit">Go</button>
+      </form>
     </div>
-
-    <load src="partials/footer-form.html" />
-
     <div class="footer-info">
       <ul class="footer-info-list">
         <li class="footer-info-item">
