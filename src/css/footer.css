@@ -9,7 +9,7 @@
   background-position: top;
   background-size: initial;
   background-repeat: repeat-x;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 
@@ -88,8 +88,7 @@
   align-items: flex-start;
   row-gap: 14px;
 }
-.footer-menu-item {
-}
+
 .footer-menu-link {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
@@ -122,6 +121,7 @@
   }
 }
 .footer-form-input {
+  border: none;
   border-radius: 12px;
   width: 100%;
   height: 60px;
@@ -136,6 +136,7 @@
 
 
 .footer-form-btn {
+  border: none;
   min-width: 60px;
   height: 60px;
   border-radius: 12px;
@@ -310,7 +311,7 @@
       background-image: url('../images/background/bckg-dt-1440-footer@2x.png');
     }
   }
-  .container {
+  .footer-container {
     max-width: 1440px;
   }
 
