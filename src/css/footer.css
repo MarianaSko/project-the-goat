@@ -111,10 +111,17 @@
   column-gap: 8px;
   margin-bottom: 40px;
 }
+.footer-form-label {
+  flex-grow: 1;
+}
+@media only screen and (min-width: 768px) {
+  .footer-form-label  {
+    max-width: 170px;
+  }
+}
 .footer-form-input {
   border-radius: 12px;
-  width: 267px;
-  /* width: 100%; */
+  width: 100%;
   height: 60px;
   padding: 20px 0 20px 18px;
   background-color: #fff;
@@ -125,12 +132,6 @@
   line-height: 1.25;
 }
 
-@media screen and (max-width:374.99px) {
-  .footer-form-input{
-    width: 100%;
-  }
-  
-}
 
 .footer-form-btn {
   min-width: 60px;
@@ -264,7 +265,7 @@
       background-image: url('../images/background/bckg-dt-1280-footer@2x.png');
     }
   }
-  .container {
+  .footer-container {
     max-width: 1280px;
     padding: 50px 100px 25px 100px;
   }

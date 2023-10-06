@@ -1,12 +1,10 @@
-.about-wrapper {
-  margin-top: 50px;
+.about-title {
+  margin-bottom: 40px;
 }
 
 .about-picture-wrapper {
   position: relative;
   flex-shrink: 0;
-  width: 335px;
-  height: 209px;
   border-radius: 1000px;
   overflow: hidden;
   margin-bottom: 40px;
@@ -26,22 +24,32 @@
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
+  .about-title {
+    margin-bottom: 50px;
+  }
+
   .about-picture-wrapper {
     width: 704px;
     height: 340px;
+    margin-bottom: 50px;
   }
 
   .about-text-wrapper {
     display: flex;
+    align-items: flex-start;
+    justify-content: start;
     gap: 40px;
   }
 
   .about-text-item {
     display: flex;
-    flex-direction: column;
     width: 280px;
-    align-items: flex-start;
-    justify-content: start;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-text-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
@@ -50,6 +58,7 @@
 @media only screen and (min-width: 1280px) {
   .about-wrapper {
     display: flex;
+    align-items: center;
     gap: 40px;
   }
 
@@ -60,18 +69,32 @@
   .about-picture-wrapper {
     width: 488px;
     height: 340px;
+    margin: 0 auto;
   }
-  
-  .about-text-item {
     display: flex;
     align-items: flex-start;
-    justify-content: first baseline;
+    justify-content: center;
     gap: 20px;
-  }  
+
+  }
+
+  .about-text-item:first-child {
+    width: 268px;
+  }
+
 }
 
 @media only screen and (min-width: 1440px) {
+  .about-wrapper {
+    gap: 50px;
+  }
+
   .about-picture-wrapper {
     width: 544px;
+    height: 340;
+  }
+
+  .about-text-item:first-child {
+    width: 268px;
   }
 }
