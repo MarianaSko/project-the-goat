@@ -85,6 +85,7 @@
     outline: transparent;
     padding: 16px 38px;
     color: var(--white-color);
+    resize: none;
 }
 
 @media only screen and (min-width: 768px){
