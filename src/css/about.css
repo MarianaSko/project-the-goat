@@ -5,8 +5,6 @@
 .about-picture-wrapper {
   position: relative;
   flex-shrink: 0;
-  width: 335px;
-  height: 209px;
   border-radius: 1000px;
   overflow: hidden;
   margin-bottom: 40px;
@@ -48,6 +46,10 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .about-text-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 /* DESKTOP */
@@ -55,6 +57,7 @@
 @media only screen and (min-width: 1280px) {
   .about-wrapper {
     display: flex;
+    align-items: center;
     gap: 40px;
   }
 
@@ -64,11 +67,15 @@
     margin: 0 auto;
   }
 
-  .about-text-item {
+  .about-text-wrapper {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
+  }
+
+  .about-text-item:first-child {
+    width: 268px;
   }
 }
 
@@ -80,5 +87,9 @@
   .about-picture-wrapper {
     width: 544px;
     height: 340;
+  }
+
+  .about-text-item:first-child {
+    width: 268px;
   }
 }
