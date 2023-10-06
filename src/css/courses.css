@@ -16,8 +16,6 @@
   color: var(--white-color);
   text-align: left;
 }
-.coutses-btn {
-}
 .courses-link {
   display: flex;
   align-items: center;
@@ -89,8 +87,8 @@
   height: 20px;
   fill: #777777;
 }
-.courses-icon:hover,
-.courses-icon:focus,
+.courses-link:hover svg,
+.courses-link:focus svg,
 .courses-link:hover,
 .courses-link:focus {
   fill: var(--white-color);
