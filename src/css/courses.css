@@ -18,6 +18,8 @@
   color: var(--white-color);
   text-align: left;
 }
+.coutses-btn {
+}
 .courses-link {
   display: flex;
   align-items: center;
