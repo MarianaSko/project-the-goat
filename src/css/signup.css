@@ -170,41 +170,48 @@
 }
 
 .sign-icon{
-    width: 14px;
-    height: 14px;
-    fill: #BEA69E;
+    fill: var(--brown-color);
     position: absolute;
-    left: 18px;
-    transform: translateY(170%);
+    top: 30px;
+    left: 16px;
+    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
+   
 }
 @media only screen and (min-width: 768px){
     .sign-icon{
-        width: 16px;
-        height: 16px;
-        transform: translateY(180%);
+        top: 38px;
     }
-    .up{
-        transform: translateY(155%);
-    }
+   .up{
+    top: 32px;
+   }
 }
 
+.text-input:focus ,
+.message-input:focus {
+    border-color: #FFF;
+    opacity: 1;
+    transition-delay: 200ms;
+
+   
+}
 .text-input:focus + .sign-icon,
 .message-input:focus + .sign-icon {
     fill: var(--white-color);
     border-color: var(--white-color);
 }
+
 .text-input::placeholder,
 .message-input::placeholder {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0s;;
+    transition-delay: 0s;
 }
 .text-input:focus::placeholder,
 .message-input:focus::placeholder {
   opacity: 1;
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }
 
 
