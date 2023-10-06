@@ -3,10 +3,8 @@
   | MOBILE-STYLE
   |============================
 */
-
 .courses-block {
   display: flex;
-
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
@@ -24,24 +22,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 32px;
+  right: 32px;
   height: 32px;
   width: 32px;
   border-radius: 50%;
   flex-shrink: 0;
   background-color: var(--dark-grey-color);
-  position: absolute;
-  top: 32px;
-  right: 32px;
 }
 .courses-text {
-  color: var(--white-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  color: var(--white-color);
 }
-
 .courses-list {
   display: flex;
   column-gap: 20px;
@@ -117,6 +114,7 @@
   .courses-subtitle {
     width: 265px;
   }
+
   .courses-text {
     height: 80px;
   }
@@ -126,7 +124,6 @@
     margin-bottom: 50px;
   }
 }
-
 /**
   |============================
   | DESKTOP-STYLE
