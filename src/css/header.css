@@ -107,6 +107,10 @@
 
 /* desktop */
 @media screen and (min-width: 1280px) {
+  .header-container.container{
+    padding-top: 0;
+  }
+
   .header-wrap-button {
     display: none;
   }
