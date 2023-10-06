@@ -17,7 +17,6 @@
   object-position: center;
 }
 
-
 .about-text-item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -62,26 +61,22 @@
     gap: 40px;
   }
 
-  .about-text-item:first-child {
-    width: 330px;
-   }
-
   .about-picture-wrapper {
     width: 488px;
     height: 340px;
     margin: 0 auto;
   }
+
+  .about-text-wrapper {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
-
   }
 
   .about-text-item:first-child {
     width: 268px;
   }
-
 }
 
 @media only screen and (min-width: 1440px) {
