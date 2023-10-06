@@ -1,5 +1,5 @@
-.about-wrapper {
-  margin-top: 50px;
+.about-title {
+  margin-bottom: 40px;
 }
 
 .about-picture-wrapper {
@@ -25,22 +25,28 @@
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
+  .about-title {
+    margin-bottom: 50px;
+  }
+
   .about-picture-wrapper {
     width: 704px;
     height: 340px;
+    margin-bottom: 50px;
   }
 
   .about-text-wrapper {
     display: flex;
+    align-items: flex-start;
+    justify-content: start;
     gap: 40px;
   }
 
   .about-text-item {
     display: flex;
-    flex-direction: column;
     width: 280px;
-    align-items: flex-start;
-    justify-content: start;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
@@ -55,18 +61,24 @@
   .about-picture-wrapper {
     width: 488px;
     height: 340px;
+    margin: 0 auto;
   }
 
   .about-text-item {
     display: flex;
     align-items: flex-start;
-    justify-content: first baseline;
+    justify-content: center;
     gap: 20px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
+  .about-wrapper {
+    gap: 50px;
+  }
+
   .about-picture-wrapper {
     width: 544px;
+    height: 340;
   }
 }
