@@ -74,6 +74,8 @@
     gap: 20px;
   }
 
+  .about-text-item {
+  }
   .about-text-item:first-child {
     width: 268px;
   }
@@ -90,6 +92,6 @@
   }
 
   .about-text-item:first-child {
-    width: 268px;
+    width: 330px;
   }
 }
