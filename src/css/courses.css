@@ -84,11 +84,6 @@
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
 }
-.courses-link:hover,
-.courses-link:focus {
-  background-color: var(--brown-color);
-  color: var(--white-color);
-}
 
 .courses-icon {
   width: 20px;
@@ -96,7 +91,9 @@
   fill: #777777;
 }
 .courses-icon:hover,
-.courses-icon:hover {
+.courses-icon:focus,
+.courses-link:hover,
+.courses-link:focus {
   fill: var(--white-color);
   background-color: var(--brown-color);
 }
@@ -114,6 +111,9 @@
   }
   .courses-title {
     min-width: 265px;
+  }
+  .courses-subtitle {
+    width: 265px;
   }
   .courses-text {
     height: 80px;
