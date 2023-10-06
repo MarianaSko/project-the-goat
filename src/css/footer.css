@@ -9,6 +9,8 @@
   background-position: top;
   background-size: initial;
   background-repeat: repeat-x;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -285,7 +287,7 @@
   .footer-form {
     column-gap: 16px;
   }
-  .footer-form-input{
+  .footer-form-label{
     width: 216px;
   }
 
