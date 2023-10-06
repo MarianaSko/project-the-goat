@@ -19,6 +19,7 @@
   object-position: center;
 }
 
+
 .about-text-item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -52,17 +53,21 @@
     gap: 40px;
   }
 
+  .about-text-item:first-child {
+    width: 330px;
+   }
+
   .about-picture-wrapper {
     width: 488px;
     height: 340px;
   }
-
+  
   .about-text-item {
     display: flex;
     align-items: flex-start;
     justify-content: first baseline;
     gap: 20px;
-  }
+  }  
 }
 
 @media only screen and (min-width: 1440px) {
