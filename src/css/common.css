@@ -1,6 +1,7 @@
 /* Variables*/
 
 :root {
+  scroll-behavior: smooth;
   --black-color: #121212;
   --dark-grey-color: #1d1d1d;
   --black-grey-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
