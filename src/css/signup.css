@@ -4,7 +4,8 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    width: 100%;}
+    width: 100%;
+}
 
 .title-text{
     margin-top: 20px;
@@ -44,7 +45,7 @@
 
 }
 .text-input::placeholder{
-    color: var(--rgba(255, 255, 255, 0.20));
+    color: rgba(255, 255, 255, 0.20);
 }
 @media only screen and (min-width: 768px){
     .text-input{
@@ -86,7 +87,7 @@
     align-items: center;
     border-radius: 12px;
     border: none;
-    background: var(--white, #FFF);
+    background: var(--white-color, #FFF);
 
     color: var(--black-color);
 
@@ -110,7 +111,7 @@
 .submit-button:hover,
 .submit-button:focus {
     background: #1D1D1D;
-    color: var(--brown, #BEA69E);
+    color: var(--brown-color, #BEA69E);
 }
 
 .text-description{
