@@ -47,11 +47,10 @@
 .icon-header-camera {
   fill: #BEA69E66;
   background: var(--dark-grey-color);
-
 }
 
-.icon-header-camera:hover{
-  fill:var(--brown-color)
+.icon-header-camera:hover {
+  fill: var(--brown-color)
 }
 
 .menu-toggle-mobile {
@@ -99,7 +98,7 @@
     transition: color 200ms linear, background-color 200ms linear;
   }
 
-  .main-btn:hover{
+  .main-btn:hover {
     color: var(--brown-color);
     background-color: var(--dark-grey-color);
   }
@@ -107,7 +106,7 @@
 
 /* desktop */
 @media screen and (min-width: 1280px) {
-  .header-container.container{
+  .header-container.container {
     padding-top: 0;
   }
 
@@ -117,12 +116,12 @@
 
   .header-nav {
     margin-right: 20px;
-    padding: 21px 50px;
+    padding: 0 50px;
   }
 
   .nav-list {
     display: flex;
-color: var(--white-color);
+    color: var(--white-color);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -132,11 +131,13 @@ color: var(--white-color);
     gap: 28px;
   }
 
- .nav-item{
+  .nav-item {
     color: var(--white-color);
+    padding: 21px 0;
   }
 
-  .nav-item:hover, .nav-item:focus {
+  .nav-item:hover,
+  .nav-item:focus {
     color: var(--brown-color);
   }
 
