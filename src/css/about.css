@@ -15,6 +15,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  margin: 0 auto;
 }
 
 .about-text-item:not(:last-child) {
@@ -41,7 +42,6 @@
   }
 
   .about-text-item {
-    display: flex;
     width: 280px;
     font-size: 16px;
     line-height: 1.25;
@@ -58,6 +58,7 @@
   .about-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
   }
 
@@ -77,8 +78,10 @@
   .about-text-item:first-child {
     width: 268px;
   }
+  .about-text-item:last-child {
+    width: 264px;
+  }
 }
-
 @media only screen and (min-width: 1440px) {
   .about-wrapper {
     gap: 50px;
@@ -86,10 +89,14 @@
 
   .about-picture-wrapper {
     width: 544px;
-    height: 340;
+    height: 340px;
   }
 
   .about-text-item:first-child {
-    width: 268px;
+    width: 330px;
+  }
+
+  .about-text-item:last-child {
+    width: 278px;
   }
 }
