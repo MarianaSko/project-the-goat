@@ -1,5 +1,5 @@
 .reviews-section {
-    background-color: #121212;
+    
    
 }
 .reviews-title {
@@ -40,7 +40,7 @@
 .reviews-name{
     display: flex;
     flex-direction: column;
-    
+    gap: 4px;
 }
 
 
@@ -73,6 +73,8 @@
 }
  .reviews-svg {
     fill: #BEA69E;
+    width: 16px;
+    height: 16px;
 }
 .reviews-svg.last{
     fill: #414141;
