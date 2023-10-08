@@ -20,6 +20,7 @@
   border: 1px solid rgba(255, 255, 255, 0.20);
   padding: 9px 20px;
   width: 100%;
+  background-color: var(--black-color);
 }
 
 .header-wrap-button {
@@ -77,8 +78,7 @@
   .header-nav {
     margin-right: 14px;
     width: calc(100% - 202px);
-    background-color: var(--black-color);
-  }
+      }
 
   .button-camera {
     display: none;
