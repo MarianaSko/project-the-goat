@@ -73,7 +73,7 @@
   display: block;
   width: 67px;
   letter-spacing: -0.04em;
-  transition: color 200ms ease-in-out;
+  transition: color 250ms ease-in-out;
 }
 
 .hero-reviews-link:hover,
@@ -81,26 +81,24 @@
   color: var(--brown-color);
 }
 
-.hero-reviews-link-text::after {
+.hero-reviews-link-icon {
   position: absolute;
-  content: "";
   width: 18px;
   height: 9px;
-  background-image: url("../images/hero-arrow.svg");
-  background-color: var(--white-color);
-  transition: background-color 200ms ease-in-out;
+  fill: var(--white-color);
+  transition: fill 250ms ease-in-out;
 }
 
-.hero-reviews-link:hover .hero-reviews-link-text::after,
-.hero-reviews-link:focus .hero-reviews-link-text::after {
-  background-color: var(--brown-color);
+.hero-reviews-link:hover .hero-reviews-link-icon,
+.hero-reviews-link:focus .hero-reviews-link-icon {
+  fill: var(--brown-color);
 }
 
 @media only screen and (max-width: 767px) {
-  .hero-reviews-link-text::after {
+  .hero-reviews-link-icon {
     right: -22px;
     top: 50%;
-    transform: translateY(-4px);
+    transform: translateY(-50%);
   }
 }
 
@@ -199,7 +197,7 @@
     line-height: 1.25;
   }
 
-  .hero-reviews-link-text::after {
+  .hero-reviews-link-icon {
     bottom: -17px;
     left: 0;
   }
