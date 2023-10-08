@@ -134,6 +134,7 @@
   .nav-item {
     color: var(--white-color);
     padding: 21px 0;
+    transition: color 250ms linear;
   }
 
   .nav-item:hover,
