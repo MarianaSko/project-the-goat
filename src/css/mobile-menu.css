@@ -83,6 +83,7 @@
 }
 .mobile-menu-item:hover,
 .mobile-menu-item:focus,
+.mobile-menu-item:focus-within,
 .mobile-menu-item:active {
   font-weight: 700;
 }
