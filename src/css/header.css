@@ -33,7 +33,8 @@
   transition: fill 250ms linear;
 }
 
-.icon-header-burger:hover{
+.icon-header-burger:hover,
+.header-logo-icon:hover{
   fill: var(--brown-color);
 }
 
