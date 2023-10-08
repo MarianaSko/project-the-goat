@@ -33,7 +33,8 @@
   transition: fill 250ms linear;
 }
 
-.icon-header-burger:hover{
+.icon-header-burger:hover,
+.header-logo-icon:hover{
   fill: var(--brown-color);
 }
 
@@ -51,7 +52,7 @@
 }
 
 .icon-header-camera {
-  fill: #BEA69E66;
+  fill: var(--brown-color);
   background: var(--dark-grey-color);
 }
 
