@@ -52,7 +52,7 @@
 }
 
 .icon-header-camera {
-  fill: #BEA69E66;
+  fill: var(--brown-color);
   background: var(--dark-grey-color);
 }
 
