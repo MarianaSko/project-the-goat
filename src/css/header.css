@@ -29,6 +29,11 @@
 .header-logo-icon,
 .icon-header-burger {
   fill: var(--white-color);
+  transition: fill 250ms linear;
+}
+
+.icon-header-burger:hover{
+  fill: var(--brown-color);
 }
 
 .button-camera {
