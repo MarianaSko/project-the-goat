@@ -7,7 +7,9 @@
 .main-btn {
   display: none;
 }
-
+.heeder-logo {
+  padding: 17px 0;
+}
 .header {
   padding: 20px 0;
 }
@@ -17,8 +19,8 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.20);
-  padding: 9px 20px;
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 20px;
   width: 100%;
   background-color: var(--black-color);
 }
@@ -34,7 +36,7 @@
 }
 
 .icon-header-burger:hover,
-.header-logo-icon:hover{
+.header-logo-icon:hover {
   fill: var(--brown-color);
 }
 
@@ -57,7 +59,7 @@
 }
 
 .icon-header-camera:hover {
-  fill: var(--brown-color)
+  fill: var(--brown-color);
 }
 
 .menu-toggle-mobile {
@@ -67,7 +69,6 @@
   background: transparent;
   border: none;
 }
-
 
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -79,7 +80,7 @@
   .header-nav {
     margin-right: 14px;
     width: calc(100% - 202px);
-      }
+  }
 
   .button-camera {
     display: none;
@@ -140,8 +141,10 @@
 
   .nav-item {
     color: var(--white-color);
-    padding: 21px 0;
     transition: color 250ms linear;
+  }
+  .nav-link {
+    padding: 21px 0;
   }
 
   .nav-item:hover,

@@ -81,13 +81,15 @@
   text-transform: uppercase;
   transition: font-weight 250ms linear;
 }
-.mobile-menu-item:hover{
+.mobile-menu-item:hover,
+.mobile-menu-item:focus,
+.mobile-menu-item:active {
   font-weight: 700;
 }
 
-.mobile-menu-item.current {
+/* .mobile-menu-item.current {
   font-weight: 700;
-}
+} */
 
 .mobile-menu-picture {
   width: 100%;
@@ -107,5 +109,4 @@
     gap: 28px;
     margin: 232px auto 5vh 64px;
   }
-
 }
