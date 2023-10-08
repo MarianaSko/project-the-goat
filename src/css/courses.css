@@ -114,7 +114,11 @@
   .courses-subtitle {
     width: 265px;
   }
-
+  .courses-text-accent {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 278px;
+  }
   .courses-text {
     font-size: 16px;
     line-height: 1.25;
@@ -137,6 +141,17 @@
   .courses-block {
     gap: 410px;
   }
-  .courses-text {
+  .courses-text-accent {
+    width: 283px;
+  }
+}
+/**
+  |============================
+  | DESKTOP-STYLE
+  |============================
+*/
+@media only screen and (min-width: 1440px) {
+  .courses-text-accent {
+    width: 336px;
   }
 }
