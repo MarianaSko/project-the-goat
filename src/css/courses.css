@@ -167,4 +167,7 @@
   .courses-text-accent {
     width: 336px;
   }
+  .courses-main {
+    gap: 200px;
+  }
 }
