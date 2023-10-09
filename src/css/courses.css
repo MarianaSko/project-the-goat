@@ -20,11 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /*position: absolute;
-  top: 32px;
-  right: 32px;
-  height: 32px;
-  width: 32px;*/
   border-radius: 50%;
   flex-shrink: 0;
   background-color: var(--dark-grey-color);
@@ -59,6 +54,9 @@
   gap: 229px;
   width: 100%;
 }
+.courses-wrapper one {
+  gap: 233px;
+}
 .courses-numer {
   width: 14px;
 }
@@ -84,7 +82,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  width: 100%;
+  letter-spacing: 0;
+  width: 275px;
 }
 .courses-text-accent {
   font-size: 14px;
