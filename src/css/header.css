@@ -140,9 +140,11 @@
   .header-container.container {
     padding-top: 0;
   }
-.header-logo-icon{
-  margin-right: 97px;
-}
+
+  .header-logo-icon {
+    margin-right: 97px;
+  }
+
   .header-wrap-button {
     display: none;
   }
@@ -185,4 +187,15 @@
     height: 60px;
     letter-spacing: 0;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-nav {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    gap: 40px;
+  }
+
 }
