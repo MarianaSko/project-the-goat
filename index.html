@@ -19,8 +19,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-the-goat/assets/index-ca9633d7.js"></script>
-    <link rel="stylesheet" href="/project-the-goat/assets/index-b492f13f.css">
+    <script type="module" crossorigin src="/project-the-goat/assets/index-3af88350.js"></script>
+    <link rel="stylesheet" href="/project-the-goat/assets/index-341e0901.css">
   </head>
   <body>
     <header class="header">
@@ -66,6 +66,16 @@
         >
           <svg class="icon-header-burger" width="32" height="22">
             <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="menu-toggle-tablet js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon-header-burger" width="40" height="28">
+            <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-tablet-menu"></use>
           </svg>
         </button>
       </div>
@@ -296,7 +306,7 @@
 
       <div class="about-text-wrapper">
         <div class="about-text-item">
-          <p>
+          <p class="about-text">
             Our photography school is designed to teach you everything you need
             to know about this magical art. Regardless of your experience or
             skill level, we offer a wide range of courses to suit your needs and
@@ -308,7 +318,7 @@
         </div>
 
         <div class="about-text-item">
-          <p>
+          <p class="about-text">
             Our courses cover a wide range of topics, from the basics of
             photography and equipment use to professional image processing and
             creating impressive compositions. You will have the opportunity to
@@ -487,66 +497,69 @@
       </div>
       <div class="review-form-wrapper">
         <form name="review_form" autocomplete="on">
-          <div class="field">
-            <input
-              class="text-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              placeholder="Enter your name"
-              pattern="[A-Za-z0-9]{2,}"
-              required
-            />
-            <svg class="sign-icon" width="16" height="16">
-              <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-1"></use>
-            </svg>
+          <div class="input-wrapper">
+            <div class="field">
+              <input
+                class="text-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Enter your name"
+                pattern="[A-Za-z0-9]{2,}"
+                required
+              />
+              <svg class="sign-icon" width="16" height="16">
+                <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-1"></use>
+              </svg>
+            </div>
+            <div class="field">
+              <input
+                class="text-input"
+                type="text"
+                name="user-email"
+                id="user-email"
+                placeholder="Enter your email"
+                pattern="[A-Za-z0-9]{3,}"
+                required
+              />
+              <svg class="sign-icon" width="16" height="16">
+                <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-2"></use>
+              </svg>
+            </div>
+            <div class="message-wrap">
+              <div class="field">
+                <textarea
+                  class="message-input"
+                  name="user-message"
+                  id="user-message"
+                  rows="5"
+                  placeholder="Message"
+                  minlength="3"
+                  maxlength="1000"
+                ></textarea>
+                <svg class="sign-icon message-icon" width="16" height="16">
+                  <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-3"></use>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div class="field">
-            <input
-              class="text-input"
-              type="text"
-              name="user-email"
-              id="user-email"
-              placeholder="Enter your email"
-              pattern="[A-Za-z0-9]{3,}"
-              required
-            />
-            <svg class="sign-icon" width="16" height="16">
-              <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-2"></use>
-            </svg>
-          </div>
-        <div class="message-wrap">
-          <div class="field">
-            <textarea
-              class="message-input"
-              name="user-message"
-              id="user-message"
-              rows="5"
-              placeholder="Message"
-              minlength="3"
-              maxlength="1000"
-            ></textarea>
-            <svg class="sign-icon up" width="16" height="16">
-              <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-signup-3"></use>
-            </svg>
-          </div>
-        </div>
 
-        <button class="submit-button" type="submit">SEND</button>
+          <button class="submit-button" type="submit">SEND</button>
 
-        <p class="text-description">
-          By clicking on “Send” button, you agree to our
-          <a
-            class="text-description-accent"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Privacy Policy,</a
-          >
-          and allow Promodo to use this information for marketing purposes.
-        </p>
-      </form>
+          <p class="text-description">
+            By clicking on “Send” button, you agree to our
+            <a
+              class="text-description-accent"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Privacy Policy,</a
+            >
+            <br />
+            and allow Promodo to use this information for marketing purposes.
+          </p>
+        </form>
       </div>
     </div>
   </div>
@@ -651,16 +664,16 @@
   <div class="footer-container container">
     <div class="container-tablet">
       <div class="container-logo-address">
-      <svg class="footer-logo" width="123" height="16">
-        <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-logo"></use>
-      </svg>
-      <div class="footer-address">
-        <a class="footer-address-link" href="tel:+380665438912"
-          ><span>UK:</span>+38 066 543 8912</a
-        >
-        <p class="footer-address-text">Ukraine, Kyiv</p>
+        <svg class="footer-logo" width="123" height="16">
+          <use href="/project-the-goat/assets/icons-84f484fd.svg#icon-logo"></use>
+        </svg>
+        <div class="footer-address">
+          <a class="footer-address-link" href="tel:+380665438912"
+            >UK: +38 066 543 8912</a
+          >
+          <p class="footer-address-text">Ukraine, Kyiv</p>
+        </div>
       </div>
-    </div>
       <div class="footer-center">
         <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -747,7 +760,10 @@
           >
         </li>
       </ul>
-      <p class="footer-info-text">2023 Focus Frame © All rights reserved</p>
+      <p class="footer-info-text">
+        2023 Focus Frame<br />
+        © All rights reserved
+      </p>
     </div>
   </div>
 </footer>
