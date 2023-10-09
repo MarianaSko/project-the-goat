@@ -38,7 +38,9 @@
   transition-delay: 0ms;
   background: var(--brown-color);
 }
-
+.mobile-menu-link {
+  letter-spacing: 0;
+}
 .mobile-menu.is-open .menu-container {
   transform: translateX(0);
   transition-delay: 300ms;
@@ -53,6 +55,10 @@
   border: none;
   padding: 0;
   margin: 0;
+}
+.menu-close-icon {
+  width: 32px;
+  height: 32px;
 }
 
 .menu-close.js-close-menu {
@@ -103,6 +109,14 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .menu-close {
+    top: 20px;
+    right: 32px;
+  }
   .mobile-menu .menu-container {
     width: 62%;
   }
