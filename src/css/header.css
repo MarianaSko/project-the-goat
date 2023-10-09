@@ -7,9 +7,11 @@
 .main-btn {
   display: none;
 }
+
 .heeder-logo {
   padding: 17px 0;
 }
+
 .header {
   padding: 20px 0;
 }
@@ -72,6 +74,7 @@
   background: transparent;
   border: none;
 }
+
 .menu-toggle-tablet {
   display: none;
 }
@@ -84,9 +87,11 @@
     background: transparent;
     border: none;
   }
+
   .menu-toggle-mobile {
     display: none;
   }
+
   .header-container {
     display: flex;
     justify-content: space-between;
@@ -131,10 +136,13 @@
   .menu-toggle-tablet {
     display: none;
   }
+
   .header-container.container {
     padding-top: 0;
   }
-
+.header-logo-icon{
+  margin-right: 97px;
+}
   .header-wrap-button {
     display: none;
   }
@@ -142,6 +150,7 @@
   .header-nav {
     margin-right: 20px;
     padding: 0 50px;
+    justify-content: flex-start;
   }
 
   .nav-list {
@@ -159,8 +168,11 @@
     color: var(--white-color);
     transition: color 250ms linear;
   }
+
+
   .nav-link {
     padding: 21px 0;
+    letter-spacing: 0;
   }
 
   .nav-item:hover,
@@ -169,7 +181,8 @@
   }
 
   .main-btn {
-    width: 268px;
+    width: 248px;
     height: 60px;
+    letter-spacing: 0;
   }
 }
