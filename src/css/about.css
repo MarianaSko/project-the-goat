@@ -94,7 +94,10 @@
     width: 544px;
     height: 340px;
   }
-
+  .about-text-wrapper {
+    gap: 40px;
+    min-height: 215px;
+  }
   .about-text-item:first-child {
     width: 330px;
   }

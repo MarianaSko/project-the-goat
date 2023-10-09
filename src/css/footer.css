@@ -304,6 +304,15 @@
   .footer-form-input {
     width: 216px;
   }
+  .container-logo-address {
+    margin-right: 285px;
+  }
+  .footer-center {
+    margin-right: 135px;
+  }
+  .container-tablet {
+    justify-content: flex-start;
+  }
 }
 
 /**
@@ -331,5 +340,11 @@
     align-items: flex-start;
     column-gap: 100px;
     margin-bottom: 50px;
+  }
+  .container-logo-address {
+    margin-right: 341px;
+  }
+  .footer-center {
+    margin-right: 191px;
   }
 }
