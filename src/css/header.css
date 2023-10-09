@@ -56,10 +56,13 @@
 .icon-header-camera {
   fill: var(--brown-color);
   background: var(--dark-grey-color);
+  opacity: 40%;
+  transition: opacity 200ms linear;
 }
 
-.icon-header-camera:hover {
-  fill: var(--brown-color);
+.button-camera:hover .icon-header-camera,
+.button-camera:focus .icon-header-camera{
+  opacity: 100%;
 }
 
 .menu-toggle-mobile {
@@ -96,7 +99,6 @@
     border: none;
 
     color: var(--black-color);
-    font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -130,7 +132,6 @@
   .nav-list {
     display: flex;
     color: var(--white-color);
-    font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
