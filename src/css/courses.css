@@ -108,7 +108,12 @@
   |============================
 */
 @media only screen and (min-width: 768px) {
+  .courses-main {
+    margin-top: 32px;
+    gap: 180px;
+  }
   .courses-item {
+    padding: 32px;
     width: calc((100% - 20px) / 2);
   }
   .courses-list {
