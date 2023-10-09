@@ -43,7 +43,9 @@
   transform: translateX(0);
   transition-delay: 300ms;
 }
-
+.menu-toggle-mobile {
+  padding: 0;
+}
 .menu-close {
   position: absolute;
   top: 20px;

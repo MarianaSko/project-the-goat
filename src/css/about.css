@@ -27,6 +27,9 @@
   .about-title {
     margin-bottom: 50px;
   }
+  .about-text {
+    letter-spacing: -0.02em;
+  }
 
   .about-picture-wrapper {
     width: 704px;
