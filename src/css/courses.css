@@ -51,11 +51,7 @@
 .courses-wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 229px;
   width: 100%;
-}
-.courses-wrapper one {
-  gap: 233px;
 }
 .courses-numer {
   width: 14px;
